@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/* CSS Document */
+*{margin:0;padding:0;}
+		ul,li{list-style:none;}
+		/* 本例子css */
+		
+		.picScroll-left{
+			  width:1150px;  overflow:hidden; 
+			  padding-top:12px;
+			  height:335px;
+			  margin:0 auto;}
+		.picScroll-left .hd{
+			width:1150px;
+			margin:0 auto;
+			position:relative;
+			}
+		
+	    .picScroll-left .hd .next{
+			position:absolute;
+			right:0;
+			top:85px;
+			background:url(../images/right02.jpg) no-repeat;
+			display:block;
+			width:20px;
+			height:122px;
+			cursor:pointer;
+			z-index:5;}
+		
+	    .picScroll-left .hd .prev{
+			position:absolute;
+			left:0;
+			top:85px;
+			background:url(../images/left02.jpg) no-repeat;
+			display:block;
+			width:20px;
+			height:122px;
+			cursor:pointer;}
+		.picScroll-left .bd{
+			width:1050px;
+			height:335px;
+			margin:0 auto;}
+		.picScroll-left .bd ul{ overflow:hidden; zoom:1;
+		height:335px; }
+		.picScroll-left .bd ul li{margin:0 7px; float:left;text-align:center; position:relative;}
+		
+		 .gun .picScroll-left .bd ul li{
+			 }
+		.picScroll-left .bd ul li .pic{ text-align:center;
+		
+		 }
+		.picScroll-left .bd ul li .pic img{ 
+		width:251px; height:315px; display:block;
+	
+		border-radius:3px;}
+
+.picScroll-left .bd ul li .pic img p{ 
+		width:251px; display:block; text-align:center; font-size:14px; color:#6e6a6a;
+		border-radius:3px;}
+
